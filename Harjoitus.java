@@ -5,7 +5,13 @@ public class Harjoitus{
 
         Scanner lukija = new Scanner(System.in);
 
-        System.out.println("Anna positiivisia kokonaislukuja");
+        int luku = 0;
 
+        while (luku >= 0){
+
+        System.out.println("Anna positiivisia kokonaislukuja");
+        luku = lukija.nextInt();
+
+        }
     }
 }
